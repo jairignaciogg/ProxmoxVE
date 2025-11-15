@@ -48,7 +48,7 @@ wget -q https://bootstrap.pypa.io/get-pip.py -O get-pip.py
 $STD python3 get-pip.py "pip"
 msg_ok "Installed Pip"
 
-source <(curl -s https://raw.githubusercontent.com/remz1337/ProxmoxVE/remz/misc/nvidia.func)
+source <(curl -s https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/misc/nvidia.func)
 nvidia_installed=$(check_nvidia_drivers_installed)
 if [ $nvidia_installed == 1 ]; then
   check_nvidia_drivers_version
