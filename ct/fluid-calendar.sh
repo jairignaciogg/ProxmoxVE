@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/misc/build.func)
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: vhsdream
 # License: MIT | https://github.com/remz1337/ProxmoxVE/raw/remz/LICENSE

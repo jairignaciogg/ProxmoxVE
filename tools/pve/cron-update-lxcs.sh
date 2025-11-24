@@ -4,7 +4,7 @@
 # Author: tteck (tteckster)
 # License: MIT
 # https://github.com/remz1337/ProxmoxVE/raw/remz/LICENSE
-# bash -c "$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/tools/pve/cron-update-lxcs.sh)"
+# bash -c "$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/tools/pve/cron-update-lxcs.sh)"
 
 clear
 cat <<"EOF"

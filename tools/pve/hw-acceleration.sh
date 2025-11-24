@@ -5,7 +5,7 @@
 # License: MIT
 # https://github.com/remz1337/ProxmoxVE/raw/remz/LICENSE
 # Execute within the Proxmox shell
-# bash -c "$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/tools/pve/hw-acceleration.sh)"
+# bash -c "$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/tools/pve/hw-acceleration.sh)"
 
 set -e
 function header_info {

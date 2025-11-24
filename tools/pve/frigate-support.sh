@@ -89,5 +89,5 @@ EOF
 echo -e "\e[1;33m \nFinished....Reboot ${CTID} LXC to apply the changes.\n \e[0m"
 
 # In the Proxmox web shell run
-# bash -c "$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/tools/pve/frigate-support.sh)"
+# bash -c "$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/tools/pve/frigate-support.sh)"
 # Reboot the LXC to apply the changes

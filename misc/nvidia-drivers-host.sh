@@ -51,7 +51,7 @@ if ! (whiptail --backtitle "Proxmox VE Helper Scripts" --title "Nvidia Drivers" 
   exit
 fi
 
-source <(curl -s https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/misc/nvidia.func)
+source <(curl -s https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/misc/nvidia.func)
 nvidia_installed=$(check_nvidia_drivers_installed)
 if [ $nvidia_installed == 1 ]; then
   check_nvidia_drivers_version

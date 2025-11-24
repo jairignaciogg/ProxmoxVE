@@ -52,7 +52,7 @@ source <(curl -s https://raw.githubusercontent.com/[USER]/[REPO]/refs/heads/[BRA
 Final script:
 
 ```bash
-source <(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/misc/build.func)
 ```
 
 > [!CAUTION]

@@ -4,7 +4,7 @@
 # Author: michelroegl-brunner
 # License: MIT | https://github.com/remz1337/ProxmoxVE/raw/remz/LICENSE
 
-source /dev/stdin <<<$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/misc/api.func)
+source /dev/stdin <<<$(curl -fsSL https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/misc/api.func)
 
 function header_info {
   clear

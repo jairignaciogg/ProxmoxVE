@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -s https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/misc/nvidia.func)
+source <(curl -s https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/misc/nvidia.func)
 # Copyright (c) 2021-2024 tteck
 # Author: remz1337
 # Co-Author: tteck (tteckster)
@@ -563,7 +563,7 @@ done
 
 msg_info "Creating a Windows 11 VM with GPU passthrough"
 
-source <(curl -s https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/nvidiapyindexerror/misc/nvidia.func)
+source <(curl -s https://raw.githubusercontent.com/jairignaciogg/ProxmoxVE/fixProxmox9.1/misc/nvidia.func)
 pci_num=$(select_nvidia_gpu_vm)
 
 #pvesm alloc $STORAGE $VMID $DISK0 4M 1>&/dev/null
